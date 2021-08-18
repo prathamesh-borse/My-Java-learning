@@ -7,11 +7,11 @@ public class AreaofRectangle {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter the length of rectangle:- ");
-        int length = in.nextInt();
+        float length = in.nextFloat();
         System.out.println("Enter the width of rectangle:- ");
-        int width = in.nextInt();
+        float width = in.nextFloat();
 
-        int area = length * width;
+        float area = length * width;
         System.out.println("The area of rectangle is " + area);
     }
 }

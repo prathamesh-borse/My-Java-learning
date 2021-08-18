@@ -8,11 +8,10 @@ public class AreaofCircle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the radius of circle:- ");
-        int r = sc.nextInt();
-        float pi = (float) 3.14;
+        double r = sc.nextDouble();
 
-        float area = pi * r * r;
-        System.out.println(area);
+        double area = Math.PI * r * r;
+        System.out.println((float)(area));
 
     }
 }
