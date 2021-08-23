@@ -1,4 +1,4 @@
-package com.prathamesh.hackerrank;
+package com.prathamesh;
 
 import java.util.Arrays;
 import java.util.Scanner;
